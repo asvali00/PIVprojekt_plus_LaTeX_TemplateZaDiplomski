@@ -1,0 +1,260 @@
+\documentclass[12pt, oneside, onecolumn]{book}
+\newcommand\hmmax{0}
+\newcommand\bmmax{0}
+\usepackage[a4paper, top=2.5cm, bottom=1.8cm, left=2.5cm, right=2.5cm]{geometry}
+
+\usepackage{fancyhdr} %Fancy Header
+\renewcommand{\baselinestretch}{1.3}
+\usepackage{titlesec} %Select alternative section titles - change font of headers with one command
+
+\fancypagestyle{plain}{% <==============================================
+	\fancyhf{}
+	\fancyfoot[R]{\thepage}
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{0pt}%
+}
+\usepackage{emptypage} %True empty page
+
+
+\usepackage{latexsym} %Standard
+\usepackage{amssymb} %Standard
+\usepackage{amsbsy} %Standard
+\usepackage[fleqn]{amsmath} %Standard
+\setlength\mathindent{\parindent}
+\usepackage{makeidx} %Standarad package for making indexes
+\usepackage{subfigure} %sideByside figures, inedependet labelin
+%\usepackage{ifthen} %Control flow
+%\usepackage{algorithmic} %Control flow
+%\usepackage{algorithm} %Control flow
+\usepackage{enumerate} %Bulleting
+\usepackage{txfonts} %More fonts
+\usepackage{multirow} %Create tabular cells spanning multiple rows
+\usepackage{setspace} %Set space between lines
+\usepackage{tabularx} %Tabulars with adjustable-width columns
+\usepackage{colortbl} %Add colour to LaTeX tables
+\usepackage{hhline} %Better horizontal lines in tabulars and arrays
+\usepackage{float} %Improved interface for floating objects e.g. figures - using h, H...
+%\usepackage{tikz} %Powerful package for creating graphic elements
+\usepackage{pgfplots} %Create normal/logarithmic plots in two and three dimensions
+\usepackage{paralist} %Enumerate and itemize within paragraphs
+\usepackage{rotating} %Rotation tools, including rotated full-page floats - landscape figure, why not?
+\usepackage[utf8]{inputenc} %Accept different input encodings
+\usepackage[croatian]{babel} %Multilingual support
+\usepackage[croatian]{babelbib} %Multilingual bibliographies
+\usepackage[T1]{fontenc} %Standard package for selecting font encodings
+%\usepackage{pslatex} %Use PostScript fonts by default
+%\usepackage{url} %Verbatim with URL-sensitive line breaks
+\usepackage{pdfpages} %Include PDF documents in LaTeX
+\usepackage{siunitx} %A comprehensive (SI) units package
+%\usepackage[absolute]{textpos} %Place boxes at arbitrary positions on the LaTeX page
+\usepackage{upgreek} %Upright Greek letters.... yeah more fonts
+\usepackage{chemformula} %Command for typesetting chemical formulas and reactions
+\usepackage{bm} %Package for making arguments bold
+\usepackage{mathalfa} %Package for additional mathfonts - new name of package mathalpha - but this should work
+\usepackage{graphicx} %Enhanced support for graphics - \includegraphics{}
+\usepackage[math]{cellspace} %Ensure minimal spacing of table cells
+\cellspacetoplimit 1.pt
+\cellspacebottomlimit 1pt
+\setlength{\arraycolsep}{2pt}
+
+
+\usepackage{mathtools} %Mathematical tools to use with amsmath - prettier math docs
+\usepackage{courier} %More fonts just in case
+\usepackage{enumitem} %Control layout of itemize, enumerate, description
+\usepackage{array} %Extending the array and tabular environments
+\usepackage{listings} %Typeset source code listings using LaTeX - see prilog for matlab.... use google for other languages, or set it up to your prefernce
+\usepackage{color} %Colour control for LaTeX documents
+\definecolor{mygreen}{RGB}{0,128,0} % Red, Green, Blue
+\definecolor{mylilas}{RGB}{128,0,128} 
+\usepackage{lipsum} %Example Text
+\usepackage{longtable} %Breakable table
+%\lstset{basicstyle=\footnotesize\ttfamily,breaklines=true}
+%\lstset{framextopmargin=50pt,frame=bottomline}
+%
+%\newcolumntype{L}{>{\raggedright\arraybackslash}p{12cm}<{}}
+
+
+
+%% Reynolds number and stuff
+\newcommand{\Arch}{\operatorname{\mathit{A\kern-.06em r}}} % http://de.wikipedia.org/wiki/Archimedes-Zahl
+\newcommand{\Biot}{\operatorname{\mathit{B\kern-.06em i}}} % http://de.wikipedia.org/wiki/Biot-Zahl
+\newcommand{\Cauc}{\operatorname{\mathit{C\kern-.07em a}}} % http://de.wikipedia.org/wiki/Cauchy-Zahl
+\newcommand{\Damk}{\operatorname{\mathit{D\kern-.06em a}}} % http://de.wikipedia.org/wiki/Damk%C3%B6hler-Zahl
+\newcommand{\Eule}{\operatorname{\mathit{E\kern-.03em u}}} % http://de.wikipedia.org/wiki/Euler-Zahl
+\newcommand{\Four}{\operatorname{\mathit{F\kern-.10em o}}} % http://de.wikipedia.org/wiki/Fourier-Zahl
+\newcommand{\Frou}{\operatorname{\mathit{F\kern-.07em r}}} % http://de.wikipedia.org/wiki/Froude-Zahl
+\newcommand{\Gras}{\operatorname{\mathit{G\kern-.05em r}}} % http://de.wikipedia.org/wiki/Grashof-Zahl
+\newcommand{\Karl}{\operatorname{\mathit{K\kern-.11em a}}} % http://de.wikipedia.org/wiki/Karlovitz-Zahl
+\newcommand{\Knud}{\operatorname{\mathit{K\kern-.11em n}}} % http://de.wikipedia.org/wiki/Knudsen-Zahl
+\newcommand{\Lewi}{\operatorname{\mathit{L\kern-.05em e}}} % http://de.wikipedia.org/wiki/Lewis-Zahl
+\newcommand{\Mach}{\operatorname{\mathit{M\kern-.10em a}}} % http://de.wikipedia.org/wiki/Mach-Zahl
+\newcommand{\Nuss}{\operatorname{\mathit{N\kern-.09em u}}} % http://de.wikipedia.org/wiki/Nusselt-Zahl
+\newcommand{\Pecl}{\operatorname{\mathit{P\kern-.08em e}}} % http://de.wikipedia.org/wiki/P%C3%A9clet-Zahl
+\newcommand{\Pran}{\operatorname{\mathit{P\kern-.03em r}}} % http://de.wikipedia.org/wiki/Prandtl-Zahl
+\newcommand{\Rayl}{\operatorname{\mathit{R\kern-.04em a}}} % http://de.wikipedia.org/wiki/Rayleigh-Zahl
+\newcommand{\Reyn}{\operatorname{\mathit{R\kern-.04em e}}} % http://de.wikipedia.org/wiki/Reynolds-Zahl
+\newcommand{\Schm}{\operatorname{\mathit{S\kern-.07em c}}} % http://de.wikipedia.org/wiki/Schmidt-Zahl
+\newcommand{\Sher}{\operatorname{\mathit{S\kern-.07em h}}} % http://de.wikipedia.org/wiki/Sherwood-Zahl
+\newcommand{\Stro}{\operatorname{\mathit{S\kern-.07em r}}} % http://de.wikipedia.org/wiki/Strouhal-Zahl
+\newcommand{\Webe}{\operatorname{\mathit{W\kern-.14em e}}} % http://de.wikipedia.org/wiki/Weber-Zahl
+
+
+
+%Za srediti naslove, podnaslove....
+\titleformat{\chapter}{\normalfont\Large\bfseries\raggedright}{\thechapter.}{1em}{} 
+\titleformat{\section}{\normalfont\large\bfseries\raggedright}{\thesection.}{2em}{} 
+\titleformat{\subsection}{\normalfont\large\mdseries\raggedright}{\thesubsection.}{3em}{}  
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries\raggedright}{\thesubsubsection.}{1em}{}
+%Definiranje prostora oko naslova, podnaslova...
+\titlespacing*{\chapter}{0pt}{-20pt}{30pt}
+\titlespacing*{\section}{\parindent}{3ex}{1.5em}
+\titlespacing*{\subsection}{\parindent}{2ex}{1em}
+
+
+
+
+\usepackage{tocloft} %Prettier Table of Content
+\renewcommand\cftloftitlefont{\LARGE\bfseries}  
+
+
+%External links
+\definecolor{cite}{rgb}{0, 0, 139}% dark blue
+\definecolor{link}{rgb}{0,0,255}% blue
+\usepackage[linktocpage=true]{hyperref}
+\hypersetup{
+	colorlinks=true,
+  linkcolor  = link,
+  citecolor  = cite,
+  urlcolor   = link,
+  colorlinks = true,
+}
+\usepackage{bookmark} %A new bookmark (outline) organization for hyperref
+\usepackage{hypdestopt} %Hyperref destination optimizer
+\usepackage[labelfont=bf, format=hang, singlelinecheck=false, labelsep=period, justification=raggedright]{caption} %Nice caption
+\usepackage{placeins} %Control float placement --> using \FloatBarrier floats won't go e.g. into a another section
+
+%Counter
+\usepackage{etoolbox} %e-TeX tools for LaTeX
+\newcounter{citenum}
+\def\oldcite{}
+\let\oldcite=\bibcite
+\def\bibcite{\stepcounter{citenum}\oldcite}
+\newcounter{totfigures}
+\newcounter{tottables}
+\newcounter{totequations}
+\makeatletter
+\AtEndDocument{%
+  \addtocounter{totfigures}{\value{figure}}%
+  \addtocounter{tottables}{\value{table}}%
+  \addtocounter{totequations}{\value{equation}}%
+  \immediate\write\@mainaux{%
+    \string\gdef\string\totfig{\number\value{totfigures}}%
+    \string\gdef\string\tottab{\number\value{tottables}}%
+    \string\gdef\string\toteq{\number\value{totequations}}%
+    \string\gdef\string\totcite{\number\value{citenum}}%
+  }%
+}
+\makeatother
+
+\pretocmd{\chapter}{\addtocounter{totfigures}{\value{figure}}\setcounter{figure}{0}}{}{}
+\pretocmd{\chapter}{\addtocounter{tottables}{\value{table}}\setcounter{table}{0}}{}{}
+\pretocmd{\chapter}{\addtocounter{totequations}{\value{equation}}\setcounter{equation}{0}}{}{}
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% DOKUMENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+	%\pagenumbering{roman}
+	\pagestyle{fancy}
+	\fancyhead{}
+%	\fancyhead[C]{\leftmark}
+	\fancyfoot{}
+	\fancyhead[C]{Sveučilište u Splitu}
+	\fancyhead[R]{FESB}
+	\fancyhead[L]{Ante Svalina}
+	\fancyfoot[R]{\thepage}
+	
+	\setstretch{1.0}
+	\linespread{1.6}
+	\setlength{\parindent}{0em}
+	\setlength{\parskip}{0.8em}
+	
+	%Prostor oko jednadžbi slika, tablica
+	\addtolength{\abovedisplayskip}{-2mm}
+	\addtolength{\abovedisplayshortskip}{-2mm}
+	\addtolength{\belowdisplayskip}{-2mm}
+	\addtolength{\belowdisplayshortskip}{-2mm}
+	\setlength{\abovecaptionskip}{1mm}
+%%%%%%%%%%%%%%%%%%%% NASLOVNICA / FRONT COVER PAGE %%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{titlepage}
+	\begin{center}	
+		{\fontsize{18}{20}\textbf{S V E U Č I L I Š T E \ \  U \ \  S P L I T U}}
+		\par
+		\vspace{1cm}
+		{\fontsize{18}{20}\textbf{FAKULTET ELEKTROTEHNIKE, STROJARSTVA I BRODOGRADNJE}}
+		\vspace{6cm}
+		\par
+		{\fontsize{18}{20}\bfseries{DIPLOMSKI RAD}}
+		\par
+		\vspace{3cm}
+		{\fontsize{22}{26}\bfseries{PIV sustav mjerenja brzine strujanja}}
+		\vspace{1cm}
+		\par
+		{\fontsize{18}{20}\textbf{Ante Svalina}}
+		\vspace{8cm}
+		\par
+		{\Large Split, rujan 2021.}
+	\end{center}
+\end{titlepage}
+
+\includepdf[pages={1}]{Zadatak_Ante_Svalina.pdf}
+\includepdf[pages={1}]{izjavaDipl.pdf}
+\includepdf[pages={1}]{zahvala.pdf}
+
+
+
+\frontmatter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TOC %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tableofcontents
+
+
+
+
+
+\mainmatter
+%%%%%%%%%%%%%%%%%%%%%%%% POGLAVLJA / CHAPTERS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{eg_chapter_1_uvod}
+\include{eg_chapter_2_DPIV}
+\include{eg_chapter_3_MatPozadina}
+\include{eg_chapter_4_PIVNesigurnost}
+\include{eg_chapter_5_PIVlabProgramskiPaket}
+\include{eg_chapter_6_PrimjerKrosKorelacije}
+\include{eg_chapter_7_LowCostPIV}
+\include{eg_chapter_8_Zakljucak}
+
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+%%%%%%%%%%%%%%%%%%%%%%% LITERATURA / BIBLIOGRAPHY %%%%%%%%%%%%%%%%%%%%%%%%%
+%\addcontentsline{toc}{chapter}{Literatura}
+\renewcommand{\bibname}{LITERATURA}
+\bibliographystyle{unsrturl}
+\bibliography{./dipl_literatura}
+
+%%%%%%%%%%%%%%%%%%%%%%% ACRONYMS %%%%%%%%%%%%%%%%%%%%%%%%
+\include{eg_akronimi}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ABSTRACT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{eg_sazetak}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ABSTRACT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{eg_abstract_eng}
+
+%%%%%%%%%%%%%%%%%%%%%%%%% PRILOG / APPENDIX %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{eg_prilog}
+
+\end{document}

@@ -1,0 +1,15 @@
+
+\chapter{UVOD}
+\label{chap:Poglavlje_1}
+
+Eksperimentalna mehanika fluida redovno zahtijeva kvantitativnu vizualizaciju, te sveukupno mjerenje svojstava fluidne domene. Metode mjerenja brzine strujanja poput, mjerenja žarnom niti i laserske Doppler anemometrije (LDA), imaju nepremostivo ograničenje u mjerenju brzine u samo jednoj točki domene istodobno. Zadnjih tridesetak godina u industriji i istraživačkom radu se zbog ubrzanog razvoja računalne i digitalne tehnike ubrzano razvija DPIV tehnika mjerenje koja ima mogućnost nerazarajućeg trenutnog mjerenja diskretnog polja brzine. U PIV mjerenjima posredno se prati brzina osvjetljenih čestica. DPIV tehnikom omogućeno je ravninsko (2D) mjerenje fluida, pri čemu su potrebne određene komponente uz pomoć kojih se ostvaruje mjerenje: kamera za snimanje, osvjetljenje, čestice markeri koji služe kao vizualni indikator, te softver za analizu i mjerenje dobivenih snimki. U novije doba moguće je 3D PIV mjerenje pri čemu je samo potrebna druga kamera koju je jednostavno dodatno implementirati u 2D sustav (stereo-PIV).
+\par
+Cilj je ovog rada pojašnjenje principa funkcioniranja DPIV analize, te prikaz procesa konstrukcije i korištenja jednostavnog PIV sustava. U radu su objašnjeni najnapredniji DPIV algoritmi, te je dan kratak opis mogućih problema prilikom PIV mjerenja. Matematički je opisana i pojašnjena kros-korelacija koja je "srce" DPIV analize, te je u MATLABU napravljen vlastiti program uz pomoć kojeg je jednostavno shvatiti poantu i prednosti statističke kros-korelacijske analize za razliku od drugih mogućih metoda praćenja kretanja čestica (PTV). Uz rizik pretjeranog pojednostavljenja, ideja kros-korelacije je mjerenje sličnosti između dva uzorka, gdje se korelacijom jednog s drugim dobivaju određene vrijednosti koje govore o intenzitetu poklapanja dva uzorka.
+\par
+Kako je glavni cilj svakog eksperimentalnog mjerenja minimizacija greški između stvarnih i mjerenih veličina, kvaliteta rada DPIV softvera najviše se odražava u točnosti njegove analize. Zbog toga su u radu generirane umjetne PIV snimke uz pomoć kojih je prikazana metodologija evaluacije PIV točnosti. Generirani parovi snimki analizirani su u vlastitom kros-korelacijskom programu, te uspoređeni s analizom u robusnom PIVlab softveru kako bi se kvalitativno i kvantitativno odredile značajke korelacijske analize.
+\par
+Rad je napravljen s namjerom razumijevanja svih DPIV tehnika. Većina današnjih DPIV alata, kako komercijalnih, tako i open-source, uglavnom su "crne-kutije" koje ulazne podatke često obrade bez da korisnik detaljno razumije moguće probleme analize što može dovesti do grešaka koje se ne smiju zanemariti. Također, razumijevanje funkcioniranja DPIV softvera omogućuje vlastito pojedinačno prilagođavanje i optimiranje postavki analize potrebama promatranog eksperimenta.
+
+
+
+

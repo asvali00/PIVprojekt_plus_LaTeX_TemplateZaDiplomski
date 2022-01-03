@@ -1,0 +1,43 @@
+\babel@toc {croatian}{}
+\babel@toc {croatian}{}
+\contentsline {chapter}{\numberline {1}UVOD}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}TEORETSKA POZADINA DPIV ANALIZE}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Akvizicija slike}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Odabir čestica markera}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Osvjetljenje}{5}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Snimanje}{5}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Pretprocesiranje slike}{6}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Prilagodljivo rastezanje kontrasta}{7}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Visoko-propusno filtriranje}{8}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Ograničavanje intenziteta}{8}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Evaluacija slike}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Direktna prostorna kros-korelacija}{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Računanje korelacijske funkcije u frekvencijskoj domeni}{12}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Računanje korelacijskog koeficijenta}{14}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Pronalazak korelacijskog vrha}{15}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Postprocesiranje PIV podataka}{17}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Provjera valjanosti podataka}{17}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Sheme zamjene i zaglađivanja podataka}{19}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Korištenje vektorskih operatora}{21}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Procjena diferencijalnih veličina}{22}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Procjena integralnih veličina}{23}{subsection.2.4.5}%
+\contentsline {chapter}{\numberline {3}MATEMATIČKA POZADINA STATISTIČKE PIV EVALUACIJE}{26}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Položaj čestica na snimkama}{26}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Polje intenziteta snimke}{27}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Srednja vrijednost, auto-korelacija i varijanca jednom ekspozicionirane snimke}{29}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Kros-korelacija dvije uzastopne jednom ekspozicionirane snimke}{31}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Očekivana vrijednost pomaka korelacije}{33}{section.3.5}%
+\contentsline {chapter}{\numberline {4}EVALUACIJA PIV TOČNOSTI}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Dinamički raspon brzina ($DVR$) i dinamički prostorni raspon ($DSR$)}{38}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Generiranje sintetičkih PIV snimki}{39}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Utjecajni parametri na korelacijski signal}{41}{section.4.3}%
+\contentsline {chapter}{\numberline {5}PIVlab PROGRAMSKI PAKET}{43}{chapter.5}%
+\contentsline {chapter}{\numberline {6}PRIMJER IMPLEMENTACIJE DPIV KROS-KORELACIJE U MATLAB-u}{46}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Koncept podudaranja predloška sa slikom koristeći kros-korelaciju}{46}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Primjer DPIV kros-korelacije u MATLAB-u}{47}{section.6.2}%
+\contentsline {chapter}{\numberline {7}DIZAJN I IMPLEMENTACIJA PIV SUSTAVA}{51}{chapter.7}%
+\contentsline {chapter}{\numberline {8}ZAKLJUČAK}{59}{chapter.8}%
+\contentsline {chapter}{POPIS OZNAKA I KRATICA}{63}{section*.57}%
+\contentsline {chapter}{SAŽETAK}{66}{section*.58}%
+\contentsline {chapter}{SUMMARY}{67}{section*.59}%
+\contentsline {chapter}{PRILOG}{68}{section*.60}%

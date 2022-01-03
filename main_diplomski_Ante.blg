@@ -1,0 +1,77 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main_diplomski_Ante.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: eg_chapter_1_uvod.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: eg_chapter_2_DPIV.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: eg_chapter_3_MatPozadina.aux
+Reallocating 'name_of_file' (item size: 1) to 32 items.
+A level-1 auxiliary file: eg_chapter_4_PIVNesigurnost.aux
+Reallocating 'name_of_file' (item size: 1) to 39 items.
+A level-1 auxiliary file: eg_chapter_5_PIVlabProgramskiPaket.aux
+Reallocating 'name_of_file' (item size: 1) to 39 items.
+A level-1 auxiliary file: eg_chapter_6_PrimjerKrosKorelacije.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: eg_chapter_7_LowCostPIV.aux
+Reallocating 'name_of_file' (item size: 1) to 27 items.
+A level-1 auxiliary file: eg_chapter_8_Zakljucak.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: unsrturl.bst
+Reallocating 'name_of_file' (item size: 1) to 18 items.
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: eg_akronimi.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: eg_sazetak.aux
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+A level-1 auxiliary file: eg_abstract_eng.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: eg_prilog.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: ./dipl_literatura.bib
+You've used 34 entries,
+            2555 wiz_defined-function locations,
+            787 strings with 10910 characters,
+and the built_in function-call counts, 10453 in all, are:
+= -- 1049
+> -- 275
+< -- 1
++ -- 94
+- -- 60
+* -- 496
+:= -- 1258
+add.period$ -- 120
+call.type$ -- 34
+change.case$ -- 31
+chr.to.int$ -- 0
+cite$ -- 34
+duplicate$ -- 287
+empty$ -- 1295
+format.name$ -- 60
+if$ -- 3063
+int.to.chr$ -- 0
+int.to.str$ -- 34
+missing$ -- 20
+newline$ -- 191
+num.names$ -- 27
+pop$ -- 286
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 893
+stack$ -- 0
+substring$ -- 299
+swap$ -- 69
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 52
+width$ -- 36
+write$ -- 387

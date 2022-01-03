@@ -1,0 +1,233 @@
+\begin{thebibliography}{10}
+
+\bibitem{raffel2018_book}
+Markus Raffel, Christian~E. Willert, Fulvio Scarano, Christian~J. K{\"a}hler,
+  Steve~T. Wereley, and J{\"u}rgen Kompenhans.
+\newblock {\em {P}article {I}mage {V}elocimetry: {A} {P}ractical {G}uide}.
+\newblock Springer, 2018.
+\newblock URL: \url{https://www.springer.com/gp/book/9783319688510}.
+
+\bibitem{thielicke2014_article}
+William Thielicke and Eize~J. Stamhuis.
+\newblock {PIVlab} {\textendash} {T}owards {U}ser-friendly, {A}ffordable and
+  {A}ccurate {D}igital {P}article {I}mage {V}elocimetry in {MATLAB}.
+\newblock {\em Journal of Open Research Software}, 2, 2014.
+\newblock \href {https://doi.org/10.5334/jors.bl} {\path{doi:10.5334/jors.bl}}.
+
+\bibitem{Pehnec2020Predavanja}
+Igor Pehnec.
+\newblock Strujanje fluida.
+\newblock Materijali sa predavanja, 2020.
+
+\bibitem{wiki:Nd:YAG}
+Wikipedia.
+\newblock {Nd:YAG} --- {W}ikipedia{,} {T}he {F}ree {E}ncyclopedia, 2021.
+\newblock [Online; pristupano 11-05-2021].
+\newblock URL:
+  \url{http://hr.wikipedia.org/w/index.php?title=Nd\:YAG&oldid=3933044}.
+
+\bibitem{stamhuis2006basics}
+Eize~J. Stamhuis.
+\newblock Basics and principles of particle image velocimetry ({PIV}) for
+  mapping biogenic and biologically relevant flows.
+\newblock {\em Aquatic Ecology}, 40(4):463--479, 2006.
+\newblock \href {https://doi.org/10.1007/s10452-005-6567-z}
+  {\path{doi:10.1007/s10452-005-6567-z}}.
+
+\bibitem{mendez2017pod}
+M.~A. Mendez, Marco Raiola, A.~Masullo, Stefano Discetti, Andrea Ianiro,
+  R.~Theunissen, and J.-M. Buchlin.
+\newblock {POD}-based backround removal for particle image velocimetry.
+\newblock {\em Experimental Thermal and Fluid Science}, 80:181--192, 2017.
+\newblock \href {https://doi.org/10.1016/j.expthermflusci.2016.08.021}
+  {\path{doi:10.1016/j.expthermflusci.2016.08.021}}.
+
+\bibitem{wiki:Adaptive_histogram_equalization}
+Wikipedia.
+\newblock {Adaptive histogram equalization} --- {W}ikipedia{,} {T}he {F}ree
+  {E}ncyclopedia, 2021.
+\newblock [Online; pristupano 12-05-2021].
+\newblock URL: \url{http://en.wikipedia.org/w/index.php?title=Adaptive\
+  histogram\ equalization&oldid=1012259790}.
+
+\bibitem{wiki:Histogram_equalization}
+Wikipedia.
+\newblock {Histogram equalization} --- {W}ikipedia{,} {T}he {F}ree
+  {E}ncyclopedia, 2021.
+\newblock [Online; pristupano 14-05-2021].
+\newblock URL: \url{http://en.wikipedia.org/w/index.php?title=Histogram\
+  equalization&oldid=1018738344}.
+
+\bibitem{adrian2011_book}
+Ronald~J. Adrian, Jerry Westerweel, and Lara Adrian.
+\newblock {\em Particle {I}mage {V}elocimetry}.
+\newblock Cambridge University Press, 2011.
+\newblock URL:
+  \url{https://www.cambridge.org/nl/academic/subjects/engineering/thermal-fluids-engineering/particle-image-velocimetry?format=HB&isbn=9780521440080}.
+
+\bibitem{thielicke2014_phd}
+William Thielicke.
+\newblock {\em The flapping flight of birds: {A}nalysis and application}.
+\newblock PhD thesis, University of Groningen, 2014.
+\newblock \href {https://doi.org/10.13140/RG.2.2.18656.94728}
+  {\path{doi:10.13140/RG.2.2.18656.94728}}.
+
+\bibitem{shavit2007intensity}
+Uri Shavit, Ryan~J. Lowe, and Jonah~V. Steinbuck.
+\newblock Intensity {C}apping: a simple method to improve cross-correlation
+  {PIV} results.
+\newblock {\em Experiments in Fluids}, 42(2):225--240, 2007.
+\newblock \href {https://doi.org/10.1007/s00348-006-0233-7}
+  {\path{doi:10.1007/s00348-006-0233-7}}.
+
+\bibitem{wiki:Correlation}
+Wikipedia.
+\newblock {Correlation and dependence} --- {W}ikipedia{,} {T}he {F}ree
+  {E}ncyclopedia, 2021.
+\newblock [Online; pristupano 15-05-2021].
+\newblock URL: \url{http://en.wikipedia.org/w/index.php?title=Correlation\ and\
+  dependence&oldid=1022423858}.
+
+\bibitem{brossard2009_article}
+Christophe Brossard, Jean-Claude Monnier, Philippe Barricau,
+  Fran\c{c}ois-Xavier Vandernoot, Yves Le~Sant, Fr{\'e}d{\'e}ric Champagnat,
+  and Guy Le~Besnerais.
+\newblock Principles and {A}pplications of {P}article {I}mage {V}elocimetry.
+\newblock {\em AerospaceLab}, pages p--1, 2009.
+\newblock URL: \url{https://hal.archives-ouvertes.fr/hal-01180587/document}.
+
+\bibitem{westerweel2005}
+Jerry Westerweel and Fulvio Scarano.
+\newblock Universal outlier detection for {PIV} data.
+\newblock {\em Experiments in fluids}, 39(6):1096--1100, 2005.
+\newblock \href {https://doi.org/10.1007/s00348-005-0016-6}
+  {\path{doi:10.1007/s00348-005-0016-6}}.
+
+\bibitem{westerweel1994efficient}
+Jerry Westerweel.
+\newblock Efficient detection of spurious vectors in particle image velocimetry
+  data.
+\newblock {\em Experiments in Fluids}, 16(3):236--247, 1994.
+\newblock \href {https://doi.org/10.1007/BF00206543}
+  {\path{doi:10.1007/BF00206543}}.
+
+\bibitem{garcia2010robust}
+Damien Garcia.
+\newblock Robust smoothing of gridded data in one and higher dimensions with
+  missing values.
+\newblock {\em Computational statistics \& data analysis}, 54(4):1167--1178,
+  2010.
+\newblock \href {https://doi.org/10.1016/j.csda.2009.09.020}
+  {\path{doi:10.1016/j.csda.2009.09.020}}.
+
+\bibitem{henningsson2011time}
+Per Henningsson, Florian~T. Muijres, and Anders Hedenstr{\"o}m.
+\newblock Time-resolved vortex wake of a common swift flying over a range of
+  flight speeds.
+\newblock {\em Journal of the royal society Interface}, 8(59):807--816, 2011.
+\newblock \href {https://doi.org/10.1098/rsif.2010.0533}
+  {\path{doi:10.1098/rsif.2010.0533}}.
+
+\bibitem{wiki:Point_spread_function}
+Wikipedia.
+\newblock {Point spread function} --- {W}ikipedia{,} {T}he {F}ree
+  {E}ncyclopedia, 2021.
+\newblock [Online; pristupano 21-05-2021].
+\newblock URL: \url{http://en.wikipedia.org/w/index.php?title=Point\ spread\
+  function&oldid=1021589500}.
+
+\bibitem{youtube_PSF}
+Microcourses.
+\newblock {T}he {P}oint {S}pread {F}unction, Prosinac 2018.
+\newblock URL: \url{https://www.youtube.com/watch?v=mpbWQbkl8_g}.
+
+\bibitem{keane1992theory}
+Richard~D. Keane and Ronald~J. Adrian.
+\newblock Theory of cross-correlation analysis of {PIV} images.
+\newblock {\em Applied scientific research}, 49(3):191--215, 1992.
+\newblock \href {https://doi.org/10.1007/BF00384623}
+  {\path{doi:10.1007/BF00384623}}.
+
+\bibitem{scharnowski2017generalization}
+Sven Scharnowski, Kristian Grayson, Charitha~M. de~Silva, Nicholas Hutchins,
+  Ivan Marusic, and Christian~J. K{\"a}hler.
+\newblock Generalization of the {PIV} loss-of-correlation formula introduced by
+  {K}eane and {A}drian.
+\newblock {\em Experiments in Fluids}, 58(10):1--12, 2017.
+\newblock \href {https://doi.org/10.1007/s00348-017-2431-x}
+  {\path{doi:10.1007/s00348-017-2431-x}}.
+
+\bibitem{sciacchitano2019_article}
+Andrea Sciacchitano.
+\newblock Uncertainty {Q}uantification in {P}article {I}mage {V}elocimetry.
+\newblock {\em Measurement Science and Technology}, 30(9):092001, 2019.
+\newblock \href {https://doi.org/10.1088/1361-6501/ab1db8}
+  {\path{doi:10.1088/1361-6501/ab1db8}}.
+
+\bibitem{adrian1997dynamic}
+Ronald~J. Adrian.
+\newblock Dynamic ranges of velocity and spatial resolution of particle image
+  velocimetry.
+\newblock {\em Measurement Science and Technology}, 8(12):1393, 1997.
+\newblock \href {https://doi.org/10.1088/0957-0233/8/12/003}
+  {\path{doi:10.1088/0957-0233/8/12/003}}.
+
+\bibitem{guezennec1990statistical}
+Yann~G. Guezennec and Nikolaos Kiritsis.
+\newblock Statistical investigation of errors in particle image velocimetry.
+\newblock {\em Experiments in Fluids}, 10(2):138--146, 1990.
+\newblock \href {https://doi.org/10.1117/12.35017}
+  {\path{doi:10.1117/12.35017}}.
+
+\bibitem{jpiv}
+{JPIV}.
+\newblock URL: \url{https://eguvep.github.io/jpiv/}.
+
+\bibitem{fluidimage}
+Fluidimage.
+\newblock URL: \url{https://pypi.org/project/fluidimage/}.
+
+\bibitem{fluere}
+Fluere.
+\newblock URL: \url{https://www.softpedia.com/get/Science-CAD/Fluere.shtml}.
+
+\bibitem{mpiv}
+mpiv.
+\newblock URL:
+  \url{https://www.mathworks.com/matlabcentral/fileexchange/2411-mpiv}.
+
+\bibitem{uvmat}
+{UVMAT}.
+\newblock URL: \url{http://servforge.legi.grenoble-inp.fr/projects/soft-uvmat}.
+
+\bibitem{openpiv}
+Open{PIV}.
+\newblock URL: \url{http://www.openpiv.net/}.
+
+\bibitem{thielicke2021PIVinMatLab}
+William Thielicke and Ren{\'e} Sonntag.
+\newblock {P}article {I}mage {V}elocimetry for {MATLAB}: {A}ccuracy and
+  enhanced algorithms in {PIV}lab.
+\newblock {\em Journal of Open Research Software}, 9(1), 2021.
+\newblock \href {https://doi.org/10.5334/jors.334}
+  {\path{doi:10.5334/jors.334}}.
+
+\bibitem{willert2008ensemble}
+Christian Willert.
+\newblock Adaptive {PIV} processing based on ensemble correlation.
+\newblock In {\em 14th International Symposium on Applications of Laser
+  Techniques to Fluid Mechanics}, July 2008.
+\newblock URL: \url{https://elib.dlr.de/55162/}.
+
+\bibitem{wiki:Rankine}
+Wikipedia.
+\newblock {Rankine vortex} --- {W}ikipedia{,} {T}he {F}ree {E}ncyclopedia,
+  2021.
+\newblock [Online; pristupano 06-09-2021].
+\newblock URL: \url{https://en.wikipedia.org/wiki/Rankine_vortex}.
+
+\bibitem{virtualdub}
+Virtual{DUB}.
+\newblock URL: \url{https://www.virtualdub.org/}.
+
+\end{thebibliography}

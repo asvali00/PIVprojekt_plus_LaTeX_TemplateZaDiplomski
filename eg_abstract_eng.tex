@@ -1,0 +1,23 @@
+\begin{flushleft}
+	{\Large\bf{SUMMARY}}
+	\phantomsection
+	\addcontentsline{toc}{chapter}{SUMMARY}
+	\vskip 3mm
+	{\large\bf{Particle image velocimetry (PIV) flow measurement system}}	
+	\vskip 3mm
+\end{flushleft}	
+Digital Particle Image velocimetry (DPIV) is non-intrusive optical measurement method in which main goal is to obtain vector velocity field in fluid flow. Small particles are introduced uniformly into fluid flows and serve as optical markers through which flow can be monitored in various examples. This thesis describes a 2D PIV technique in which a thin laser light plane is illuminated rendering the particles, which become visible in short-time exposures of a (fast) camera, which captures a certain number of images of the desired observed domain. By analyzing the obtained images, it is possible to determine flow velocities from which various other physical properties can be additionally obtained
+\par
+In the introduction to the thesis, the theoretical background of the DPIV analysis is presented, where four main steps of PIV measurments are explained. The first step consists of image acquisition in which three main components of PIV are briefly presented: tracer particles, laser illumination and camera setup. The second step explains the most important image processing techniques that improve the quality of PIV images. In the most important, third step, the evaluation of PIV images is explained in detail, as well as the working principle of cross-correlation alghoritams used by "state-of-the-art" PIV softwares. As the entire PIV analysis is based on statistical cross-correlation, the following chapter in detail describes mathematical background of the correlation of single-exposed images. In the last step, the post-processing, validation of the obtained PIV data is briefly presented, and the principle of obtaining other physical properties from the velocity field is described.
+\par
+In the last theoretical, fourth chapter, the evaluation of PIV accuracy is explained. The most important sources of measurement errors are presented, as well as the parameters that mostly influence the quality of the correlation signal. The method for evaluating the accuracy of DPIV algorithms, which is most often done by generating synthetic images, is presented. With the help of generated synthetic particle images, DPIV algorithms which are implemented in the PIVlab software were tested, giving the conclusion that for the most cases "window deformation DFT" gives the most reliable results.
+\par
+The practical part briefly describes the architecture and principle of operation of PIVlab software. A simple DPIV cross-correlation code was written in MATLAB, and it was used to explain how cross-correlation works. A couple of synthetic particle images were tested in the program, and the measurement results were compared with the results from the PIVlab software, which, with the included preprocessor techniques, gave similar results as written program. At the end of the paper, an low-cost PIV system was designed and implemented with the equipment available at the faculty department. The PIV measurement process was demonstrated, and test measurement was performed in which the flow of water from the pipe is observed. Quasi-realistic results have been obtained that need to be taken with caution, due to many simplifications and assumptions when designing the system. At the end, it is concluded that for more serious measurments, better equipment is needed which also needs to be accompanied with the best possible optimization of measurement parameters.
+
+\vskip 3mm
+\begin{flushleft}	
+	{\setstretch{1.1}
+		\normalsize{\bf{Keywords:\\}}
+		\textnormal{PIV, DPIV, cross-correlation, PIVlab, digital image processing, pattern recognition}
+	}	
+\end{flushleft}

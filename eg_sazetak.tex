@@ -1,0 +1,22 @@
+\begin{flushleft}
+	{\Large\bf{SAŽETAK}}
+	\phantomsection
+	\addcontentsline{toc}{chapter}{SAŽETAK}
+	\vskip 3mm
+	{\large\bf{PIV sustav mjerenja brzine strujanja}}	
+	\vskip 3mm
+\end{flushleft}	
+DPIV mjerenje (\textit{eng. digital particle image velocimetry}) nerazarajuća je optička mjerna metoda za dobivanje polja brzina strujanja raznih fluida. Sitne čestice dodaju se uniformno u struju fluida, te služe kao optički markeri preko kojih se može pratiti struja fluida u raznim primjerima. U ovom radu opisuje se 2D DPIV metoda u kojoj se tankom svjetlosnom laserskom ravninom osvjetle čestice koje tako postaju vidljive pri kratkotrajnim ekspozicijama (brze) kamere koja snima određeni broj snimki željene promatrane domene. Analizom dobivenih snimki određuju se pomaci, odnosno brzine strujanja iz kojih se dodatno mogu dobiti ostala fizička svojstva strujanja fluida (tlak, sile na objekte,...).
+\par
+U uvodu rada prikazana je teoretska pozadina DPIV analize gdje su objašnjena četiri glavna koraka. Prvi korak sastoji se od akvizicije slike gdje su kratko pojašnjena tri glavne potrebne komponente PIV mjerenja: čestice markeri, lasersko osvjetljenje i kamera za snimanje. U drugom koraku objašnjene su najvažnije tehnike pretprocesiranja slike kojima se poboljšava kvaliteta PIV snimki. U trećem, najvažnijem koraku detaljno je pojašnjena evaluacija PIV snimki, te način funkcioniranja kros-korelacijskih algoritama koji se trenutno koriste u najnaprednijim PIV softverima. Kako se čitava PIV analiza temelji na statističkoj kros-korelaciji, u sljedećem poglavlju detaljno je opisana matematička pozadina korelacije jednom ekspozicioniranih snimki. U posljednjem koraku ukratko je opisano postprocesiranje, odnosno validacija dobivenih PIV podataka, te je pojašnjeno dobivanje ostalih fizikalnih svojstava iz polja brzina.
+\par
+U posljednjem teoretskom, četvrtom poglavlju objašnjena je evaluacija PIV točnosti. Prikazani su najvažniji izvori pogrešaka mjerenja, te parametri koji najviše utječu na kvalitetu korelacijskog signala. Prikazan je način provjere točnosti DPIV algoritama, koji se najčešće vrši generiranjem sintetičkih snimki. Uz pomoć generiranih umjetnih snimki testirani su DPIV algoritmi koji su implementirani u PIVlab softverski paket, te je zaključeno kako u većini slučajeva DFT algoritam s tehnikom deformacije prozora daje najpouzdanije rezultate.
+\par
+U praktičnom dijelu ukratko je opisana arhitektura i način rada PIVlab softvera. U MATLAB-u napisan je jednostavni DPIV kros-korelacijski kod, te je uz pomoć njega objašnjen način funkcioniranja kros-korelacije. U programu je testirano par umjetnih snimaka, a rezultati mjerenja uspoređeni su s rezultatima iz PIVlab softvera koji je uz uključene pretprocesorske tehnike dao slične rezultate kao vlastiti program. Na kraju rada dizajniran je i implementiran vlastiti PIV sustav uz pomoć opreme dostupne na katedri fakulteta. Demonstriran je proces PIV mjerenja, te je ostvareno pokazno testno mjerenje u kojem se promatra istrujavanje vode iz cijevi. Dobiveni su polu-realni rezultati koji se trebaju uzeti s oprezom zbog mnogih pojednostavljenja i pretpostavki prilikom dizajniranja sustava. Za sam kraj ističe se preporuka nabavke kvalitetnije opreme, te što bolje optimizacije parametara mjerenja prilikom dizajniranja sustava.
+\vskip 3mm
+\begin{flushleft}	
+{
+	\normalsize{\bf{Ključne riječi:\\}}
+	\textnormal{PIV, DPIV, kros-korelacija, PIVlab, digitalna obrada slike, prepoznavanje uzorka}
+}	
+\end{flushleft}

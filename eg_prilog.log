@@ -1,0 +1,356 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.25)  3 SEP 2021 09:21
+entering extended mode
+**./eg_prilog.tex
+(eg_prilog.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+! Undefined control sequence.
+l.3 \appendix
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.4 \chapter
+            {PRILOZI}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \chapter{P
+              RILOZI}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no Z in font nullfont!
+Missing character: There is no I in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--7
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \begin{enumerate}
+                     [style=unboxed,leftmargin=0cm]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 9--9
+[] 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \begin{enumerate}[
+                      style=unboxed,leftmargin=0cm]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \item [1.]
+                MatLab kod
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \item [1.]
+                MatLab kod
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \item [1.]
+                MatLab kod
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.13 \lstset
+            {language=Matlab,%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.17 	keywordstyle=\color
+                         {blue},%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.18 	morekeywords=[2]{1}, keywordstyle=[2]{\color
+                                                  {black}},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.19 	identifierstyle=\color
+                            {black},%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.20 	stringstyle=\color
+                        {mylilas},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.21 	commentstyle=\color
+                         {mygreen},%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.24 	numberstyle={\tiny
+                         \color{black}},% size of the numbers
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.24 	numberstyle={\tiny \color
+                               {black}},% size of the numbers
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.26 	emph=[1]{for,end,break},emphstyle=[1]\color
+                                                 {red}, %some words to empha...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.31 \lstinputlisting
+                     {DIPkomande.m}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \vskip
+            0.42cm
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (209.10895pt too wide) in paragraph at lines 9--33
+[]\OT1/cmr/m/n/12 [style=unboxed,leftmargin=0cm]MatLab
+ []
+
+
+Overfull \hbox (18.60397pt too wide) in paragraph at lines 9--33
+\OT1/cmr/m/n/12 kod
+ []
+
+
+Overfull \hbox (19.58313pt too wide) in paragraph at lines 9--33
+\OT1/cmr/m/n/12 lan-
+ []
+
+
+Overfull \hbox (309.21346pt too wide) in paragraph at lines 9--33
+\OT1/cmr/m/n/12 guage=Matlab,breaklines=true,morekeywords=matlab2tikz,
+ []
+
+
+Overfull \hbox (21.21506pt too wide) in paragraph at lines 9--33
+\OT1/cmr/m/n/12 key-
+ []
+
+
+Overfull \hbox (29.04831pt too wide) in paragraph at lines 9--33
+\OT1/cmr/m/n/12 word-
+ []
+
+
+Overfull \hbox (160.71222pt too wide) in paragraph at lines 9--33
+\OT1/cmr/m/n/12 style=blue,morekeywords=[2]1,
+ []
+
+
+Overfull \hbox (21.21506pt too wide) in paragraph at lines 9--33
+\OT1/cmr/m/n/12 key-
+ []
+
+
+Overfull \hbox (29.04831pt too wide) in paragraph at lines 9--33
+\OT1/cmr/m/n/12 word-
+ []
+
+
+Overfull \hbox (75.13394pt too wide) in paragraph at lines 9--33
+\OT1/cmr/m/n/12 style=[2]black,
+ []
+
+
+Overfull \hbox (25.45807pt too wide) in paragraph at lines 9--33
+\OT1/cmr/m/n/12 iden-
+ []
+
+
+Overfull \hbox (11.74988pt too wide) in paragraph at lines 9--33
+\OT1/cmr/m/n/12 ti-
+ []
+
+
+Overfull \hbox (20.2359pt too wide) in paragraph at lines 9--33
+\OT1/cmr/m/n/12 fier-
+ []
+
+
+Overfull \hbox (164.10663pt too wide) in paragraph at lines 9--33
+\OT1/cmr/m/n/12 style=black,stringstyle=mylilas,
+ []
+
+
+Overfull \hbox (24.8053pt too wide) in paragraph at lines 9--33
+\OT1/cmr/m/n/12 com-
+ []
+
+
+Overfull \hbox (485.26996pt too wide) in paragraph at lines 9--33
+\OT1/cmr/m/n/12 mentstyle=mygreen,showstringspaces=false,numbers=left,numbersty
+le=black,numbersep=9pt,
+ []
+
+
+Overfull \hbox (212.86862pt too wide) in paragraph at lines 9--33
+\OT1/cmr/m/n/12 emph=[1]for,end,break,emphstyle=[1]red,
+ []
+
+
+Overfull \hbox (25.12337pt too wide) in paragraph at lines 9--33
+\OT1/cmr/m/n/12 DIP-
+ []
+
+
+Overfull \hbox (15.6665pt too wide) in paragraph at lines 9--33
+\OT1/cmr/m/n/12 ko-
+ []
+
+
+Overfull \hbox (46.99951pt too wide) in paragraph at lines 9--33
+\OT1/cmr/m/n/12 mande.m 
+ []
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 
+     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 
+     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+! Emergency stop.
+<*> ./eg_prilog.tex
+                   
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 23 strings out of 479324
+ 586 string characters out of 2857290
+ 283614 words of memory out of 3000000
+ 17586 multiletter control sequences out of 15000+600000
+ 403728 words of font info for 28 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 13i,2n,15p,116b,75s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
